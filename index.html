@@ -94,7 +94,7 @@
     <section id="formulairee">
       <p id="captcha"  class="cal">Validez le CAPTCHA pour afficher le formulaire</h2>
       <div class="g-recaptcha" data-sitekey="6Lfq49YrAAAAAFln0NLH21Zh0_UcWaJR98_R4iWt" data-callback="captchaValide"></div>
-      <div id="formulaire">
+      <div class="formulaire">
         <h2 class="titre">FORMULAIRE</h2>
         <form action="https://formsubmit.co/josephinebakerbs@gmail.com" method="POST" enctype="multipart/form-data" value="Nouveau message depuis le site !">
           <input type="text" name="nom" placeholder="Nom" required><br>
@@ -153,7 +153,8 @@
 });
 
 function captchaValide() {
-      document.getElementById('formulaire').style.display = 'block';
+      document.querySelector(".formulaire").style.display = 'block';
     }
 </script>
 </html>
+
