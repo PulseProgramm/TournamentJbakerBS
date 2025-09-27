@@ -106,6 +106,10 @@ html {
     
   }
 
+  .formulaire{
+    display: none;
+  }
+
   #formulaire{
     display: block;
     text-align: left;
@@ -172,6 +176,43 @@ html {
     width: 100%;
     height: 1%;
     padding-top: 20px;
+  }
+
+  #information{
+    margin-top: 20px;
+    padding: 20px 0px 70px 0px;
+    color: #000;
+    background: linear-gradient(to bottom, #1E5EDC, #1C1173);
+    justify-content: center;
+    align-items: center;
+  }
+
+  #information h2{
+    color: #fff;
+  }
+
+   #information p.cal{
+    color: #fff;
+  }
+
+  .diapo{
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center;     /* centre verticalement */
+}
+
+   #planning{
+    width: 65%;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  #canva{
+    aspect-ratio: 16 / 9;
+    width: 50%; 
+    border: solid #000 10px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(63,69,81,0.16);
   }
 
   #ORGANISATION{
@@ -275,7 +316,7 @@ html {
       background-color: #000000f5;
       width: 100%;
       height: 100vh;
-      top: 66px;
+      top: 62px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -486,5 +527,32 @@ html {
       background-color: #42bd37;        /* vert un peu plus foncé au survol */
       border: 4px solid #18862e;
       color: #fff;
+    }
+
+    #information{
+    margin-top: 20px;
+    padding: 20px 0px 30px 0px;
+    color: #000;
+    background: linear-gradient(to bottom, #1E5EDC, #1C1173);
+    justify-content: center;
+    align-items: center;
+    }
+
+    #information h2{
+    color: #fff;
+    }
+
+    #information p.cal{
+    color: #fff;
+    }
+
+    #planning{
+    width: 75%;
+    height: auto;
+    padding-top: 10px
+    }
+
+    #information div iframe{
+      border: #000 solid 5px;
     }
   }

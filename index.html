@@ -14,6 +14,7 @@
     <div class="nav-links">
       <ul>
         <li><a href="#matchs">Matchs</a></li>
+        <li><a href="#information">Informations</a></li>
         <li><a href="#open">Prérequis</a></li>
         <li><a href="#inscription">Inscription</a></li>
         <li><a href="#formulaire">Formulaire</a></li>
@@ -47,6 +48,26 @@
           </div>
       </div>
     </section>
+
+    <section id="information">
+      <h2 class="titre">INFORMATIONS</h2>
+      <p class="cal">Le tournoi contient 16 équipes.</p>
+      <p>Il y aura une branche des gagnants et une branche des perdants à partir des quarts de finale</p>
+      <p>Les 2 équipes restante du looser bracket pourront revenir dans la compétition principale <br> à partir des demis finale</p>
+      <p class="cal">Planning des matchs :</p>
+      <img src="images/Infos Tournoi.png" id="planning" alt="">
+      <p>   <br> </p>
+      <p class="cal">Arbre de tournoi (diapo) :</p>
+      <div style="display: flex; justify-content: center; margin: 2em 0;">
+  <iframe
+    id="canva"
+    src="https://www.canva.com/design/DAGza1ChPUc/EGIqhK25bXw9Dm0UBmgT9Q/view?embed"
+    loading="lazy"
+    allowfullscreen>
+  </iframe>
+</div>
+    </section>
+    
     <section id="open">
       <div class="info">
           <div class="text-info">
@@ -69,10 +90,11 @@
       </ul>
     </section>
 
-    <section id="formulaire">
+
+    <section id="formulairee">
       <p id="captcha"  class="cal">Validez le CAPTCHA pour afficher le formulaire</h2>
-      <div class="g-recaptcha" data-sitekey="VOTRE_SITE_KEY" data-callback="captchaValide"></div>
-      <div class="formulaire">
+      <div class="g-recaptcha" data-sitekey="6Lfq49YrAAAAAFln0NLH21Zh0_UcWaJR98_R4iWt" data-callback="captchaValide"></div>
+      <div id="formulaire">
         <h2 class="titre">FORMULAIRE</h2>
         <form action="https://formsubmit.co/josephinebakerbs@gmail.com" method="POST" enctype="multipart/form-data" value="Nouveau message depuis le site !">
           <input type="text" name="nom" placeholder="Nom" required><br>
@@ -90,7 +112,7 @@
 
           <!-- désactiver captcha FormSubmit -->
           <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://tonsite.github.io/merci.html">
+          <input type="hidden" name="_next" value="https://ytfrosteez.github.io/TournamentJbakerBS/">
 
           <button type="submit">Envoyer</button>
         </form>
@@ -99,7 +121,7 @@
 
     <section id="contact">
       <h1 class="titre">NOW IT'S TIME TO BRAWL !</h1>
-      <p id="pfooter" class="cal">Organisé par : FROSTEEZ 🧊</p>
+      <p id="pfooter" class="cal">Organisé par : FROSTEEZ 🧊 ; Financé par la MDL</p>
     </section>
 
 </body>
